@@ -1,5 +1,5 @@
-name: Webhook
-  uses: joelwmale/webhook-action@master
+- name: Baba
+  uses: babae/webhook-action@master
   env:
-    WEBHOOK_URL: https://gitlab.com/api/v4/projects/18673447/trigger/pipeline
+    WEBHOOK_URL: "https://gitlab.com/api/v4/projects/18673447/trigger/pipeline"
     data: "{'token':'a0ff27d17775c667d6d04fad12b56d', 'ref':'master'}"

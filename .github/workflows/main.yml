@@ -1,4 +1,4 @@
-- name: Webhook
+name: Webhook
   uses: joelwmale/webhook-action@master
   env:
     WEBHOOK_URL: https://gitlab.com/api/v4/projects/18673447/trigger/pipeline
